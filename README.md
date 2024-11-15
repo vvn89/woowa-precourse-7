@@ -38,6 +38,16 @@ git commit -m "chore: gitignore 파일 수정"
 ./gradlew clean test
 ```
 
+### Gradle JDK
+`settings` - `Build Tools` - `Gradle` - `Gradle JDK` - 21 버전으로 변경
+
+### Gradle 빌드 시 'Permission Denied 오류
+실행 파일에 실행 권한이 없을 때 발생함.
+```
+chmod +x ./gradlew
+```
+권한 부여 후 명령어 재입력
+
 
 # 진행 순서
 1. 프로젝트 fork 후 나의 레포지토리 생성하기
