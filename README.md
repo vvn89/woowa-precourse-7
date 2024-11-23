@@ -1,9 +1,9 @@
 # woowa-precourse-7
 우아한테크코스 7기 프리코스 연습 레포지토리
 
-|주차|레포지토리 주소|프리코스 참여 레포지토리 주소|재도전|
+|주차|레포지토리 주소|프리코스 참여 레포지토리 주소|재시도|
 |---|---|---|---|
-|1주차|[문자열 덧셈 계산기](https://github.com/woowacourse-precourse/kotlin-calculator-7)|[문자열 덧셈 계산기 - 프리코스](https://github.com/vvn89/kotlin-calculator-7)|[문자열 덧셈 계산기 - 재도전](https://github.com/vvn89/kotlin-calculator-7-retry/tree/vvn89)|
+|1주차|[문자열 덧셈 계산기](https://github.com/woowacourse-precourse/kotlin-calculator-7)|[문자열 덧셈 계산기 - 프리코스](https://github.com/vvn89/kotlin-calculator-7)|[문자열 덧셈 계산기 - 재시도](https://github.com/vvn89/kotlin-calculator-7-retry/tree/vvn89)|
 |2주차|[자동차 경주](https://github.com/woowacourse-precourse/kotlin-racingcar-7)|[자동차 경주 - 프리코스](https://github.com/vvn89/kotlin-racingcar-7)||
 |3주차|[로또](https://github.com/woowacourse-precourse/kotlin-lotto-7)|[로또 - 프리코스](https://github.com/vvn89/kotlin-lotto-7)||
 |4주차|[편의점](https://github.com/woowacourse-precourse/kotlin-calculator-7)|[편의점 - 프리코스](https://github.com/vvn89/kotlin-convenience-store-7-vvn89)||
@@ -47,6 +47,22 @@ git commit -m "chore: gitignore 파일 수정"
 chmod +x ./gradlew
 ```
 권한 부여 후 명령어 재입력
+
+### 재시도 레포지토리 만드는 순서
+1. 로컬 클론으로 프로젝트 다운 받기
+2. 새로운 레포지토리 만들기
+3. 로컬 프로젝트의 remote 연결 끊기
+```
+git remote remove origin
+```
+4. 만든 레포지토리에 로컬 프로젝트 연결하기
+```
+git remote add origin https://github.com/vvn89/${새로운 레포지토리 이름}.git
+git branch -M main
+git push -u origin main
+```
+
+
 
 
 # 진행 순서
