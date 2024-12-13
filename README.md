@@ -72,25 +72,30 @@ git push -u origin main
 git clone https://github.com/${깃 아이디}/${저장소 아이디}.git
 ex) git clone https://github.com/woowacourse/java-baseball.git
 ```
-3. 브랜치 생성하기
+3. 실행 혹은 디버깅 실행하기
+4. AndroidStudio - Build, Execution, Deployment - Build Tools - Gradle - Gradle Project - Gradle JDK 21 버전으로 번경하기
+
+
+
+5. 브랜치 생성하기
 ```
 git checkout -b {본인 아이디}
 ex) git checkout -b vvn89
 ```
-4. 기능 구현하기
-5. 기능 구현 commit 하기
+6. 기능 구현하기
+7. 기능 구현 commit 하기
 ```
 git status // 변경된 파일 확인
 git add -A(또는 .) // 변경된 전체 파일을 한번에 반영
 git commit -m "메시지" // 작업한 내용을 메시지에 기록
 ```
 
-6. 본인 원격 저장소에 올리기
+8. 본인 원격 저장소에 올리기
 ```
 git push origin 브랜치이름
 ex) git push origin vvn89
 ```
-7. github에서 Pull Request 보내기
+9. github에서 Pull Request 보내기
 - 브라우저에서 github 저장소에 접근
 - 브랜치를 작업 브랜치로 변경 vvn89
 - 브랜치 오른쪽에 있는 "New pull request" 버튼 클릭
